@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  display: flex;
+}
+.navbar {
+  margin: 0;
+  width: 20%;
+  background-color: rgb(6, 8, 8);
+}
+/* .navbar > img {
+  width: 25%;
+  border-radius: 50%;
+} */
+.navbar__list {
+  margin-top: 60%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar__list_items {
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.navbar__list_items:hover {
+  transform: scale(1.2);
+  color: gold;
+}
+
+.header {
+  width: 80%;
+  /* height: 100vh; */
+  background-image: url(../images/header_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(231, 220, 202);
+  font-family: "Titillium Web", sans-serif;
+
+  /* display: flex;
+    justify-content: space-around; */
+}
+.header__hello {
+  opacity: 0.7;
+  font-size: 2rem;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.header__fio {
+  opacity: 0.8;
+  font-size: 5rem;
+  margin-left: 20%;
+}
+.header__self {
+  opacity: 0.7;
+  font-size: 2rem;
+  margin-left: 20%;
+}
+.header__btn {
+  width: 60%;
+  background-color: rgb(94, 68, 31);
+  color: rgb(231, 220, 202);
+  opacity: 0.9;
+  font-size: 1.3rem;
+  margin: 17%;
+}
+/* content-aboutme---------------- */
+.content {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.aboutme {
+  width: 80%;
+}
+.aboutme__title {
+  border-bottom: 1px solid rgb(170, 170, 211);
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.aboutme__info {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutme__img {
+  width: 20%;
+  border: 1px solid sienna;
+  padding: 5px;
+}
+.about__info_list {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__info_item {
+  width: 30%;
+}
+.info__text {
+  margin-top: 5%;
+  width: 70%;
+  margin-left: 25%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.container2 {
+  width: 100%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.skills {
+  width: 80%;
+}
+.skills__title {
+  width: 100%;
+  border-bottom: 1px solid rgb(170, 170, 211);
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+  text-align: center;
+  /* margin-bottom: 2%; */
+}
+.skills__graf {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.skills__graf_list {
+  margin-top: 5%;
+  width: 27%;
+  background-color: rgb(255, 240, 199);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills__graf_item {
+  width: 80%;
+  margin: 2% 0;
+  list-style-type: none;
+}
+.graf_percent {
+  width: 100%;
+  border: 1px solid rgb(250, 178, 22);
+  margin: 2% 0;
+  display: flex;
+  justify-content: space-between;
+}
+.graf_color {
+  height: 100%;
+  background-color: brown;
+  color: brown;
+}
+.footer {
+  margin-top: 3%;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: end;
+  background-color: rgb(253, 252, 251);
+}
+.footer__list {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer__item {
+  width: 10%;
+  list-style-type: none;
+}
+.footer__item > img {
+  width: 100%;
+}

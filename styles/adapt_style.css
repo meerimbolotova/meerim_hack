@@ -1,0 +1,75 @@
+@media all and (max-width: 1025px) {
+  .navbar__list_items {
+    font-size: 2rem;
+  }
+  .header__fio {
+    width: 80%;
+    font-size: 4rem;
+  }
+  .header__btn {
+    font-size: 1rem;
+  }
+  .aboutme__info {
+    font-size: 0.8rem;
+  }
+  .info__text {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 426px) {
+  .navbar {
+    display: none;
+  }
+  .header {
+    width: 100%;
+    margin: 0;
+  }
+  .container {
+    margin: 0;
+  }
+  .content {
+    width: 100%;
+  }
+  .aboutme {
+    width: 100%;
+  }
+  .aboutme__info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme__img {
+    display: none;
+  }
+
+  .about__info_item {
+    width: 60%;
+    margin: 10%;
+    font-size: 1.5rem;
+  }
+  .info__text {
+    margin-top: 5%;
+    width: 70%;
+    margin: 10%;
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+  .skills__graf {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .skills__graf_list {
+    width: 60%;
+  }
+  .footer__list {
+    width: 50%;
+  }
+}
+@media all and (max-width: 330px) {
+  .header__fio {
+    font-size: 3rem;
+  }
+  .header__self {
+    font-size: 1rem;
+  }
+}
